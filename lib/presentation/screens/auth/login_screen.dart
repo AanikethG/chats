@@ -93,7 +93,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 CustomTextField(
                   controller: passwordController,
-                  focusNode: _emailFocus,
+                  focusNode: _passwordFocus,
                   hintText: "Password",
                   validator: _validatePassword,
                   prefixIcon: const Icon(Icons.lock_outline_rounded),
